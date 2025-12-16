@@ -38,7 +38,7 @@ Mesmo em fase inicial, o projeto já representa um passo importante para aplicar
 ## Como Acessar o Projeto
 
 O site está disponível online pelo GitHub Pages:
-[https://91zbia.github.io/Fire-Help/](https://91zbia.github.io/Fire-Help/)
+---
 
 Se quiser testar localmente:
 
@@ -68,13 +68,6 @@ O projeto ainda está em fase inicial — estamos no segundo período da faculda
 A ideia é evoluir o Fire Help ao longo do curso, adicionando novas funcionalidades, sensores reais e integração com APIs de dados climáticos.
 
 Cada etapa é uma oportunidade de aprendizado e crescimento, e o projeto vai sendo aprimorado com base no que a equipe aprende nas disciplinas e nas experiências práticas.
-
----
-
-## Contribuições
-
-Esse é um projeto acadêmico aberto a ideias e melhorias.
-Se quiser sugerir algo, contribuir com código, design ou documentação, pode abrir uma issue ou um pull request aqui no GitHub.
 
 ---
 
