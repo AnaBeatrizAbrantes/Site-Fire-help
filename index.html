@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fire Help - Sistema de mapeamento, monitoramento e detecção de incêndios com tecnologia e colaboração comunitária."/>
+    <title>Fire Help</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="logo.jpg" alt="Logo Fire Help" class="logo" />
+      <nav class="menu">
+        <a class="menu-item" href="#inicio">Início</a>
+        <a class="menu-item" href="#problema">Problema</a>
+        <a class="menu-item" href="#solucao">Solução</a>
+        <a class="menu-item" href="#funcionalidades">Funcionalidades</a>
+        <a class="menu-item" href="#impacto">Impacto</a>
+        <a class="menu-item" href="#equipe">Equipe</a>
+        <a class="menu-item" href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+      <div class="overlay"></div>
+      <div class="hero-texto">
+        <h1>Fire Help</h1>
+        <h2>sistema de Alerta e Combate a incêndios</h2>
+        <button class="botao-acao" id="botaoApp">Baixar App</button>
+      </div>
+    </section>
+
+    <section id="problema" class="secao">
+      <h2>O Problema</h2>
+      <p>Os incêndios florestais e urbanos têm se tornado cada vez mais frequentes, ameaçando ecossistemas, vidas humanas e causando enormes prejuízos econômicos. A falta de tecnologias eficazes para detecção rápida agrava ainda mais esses impactos.</p>
+    </section>
+
+    <section id="solucao" class="secao destaque">
+      <h2>A Solução</h2>
+      <p>O Fire Help é um sistema inteligente que une sensores ambientais, câmeras e um aplicativo móvel para monitorar, detectar e alertar sobre focos de incêndio em tempo real. Essa integração reduz o tempo de resposta e fortalece a colaboração entre comunidade e autoridades.</p>
+    </section>
+
+    <section id="funcionalidades" class="secao">
+      <h2>Funcionalidades</h2>
+      <div class="grid-func">
+        <div class="card"><h3>Detecção Rápida</h3><p>Sensores inteligentes identificam focos de incêndio e enviam alertas em tempo real.</p></div>
+        <div class="card"><h3>Aplicativo Comunitário</h3><p>A população pode denunciar focos de incêndio e receber notificações instantâneas.</p></div>
+        <div class="card"><h3>Mapeamento QGIS</h3><p>Integração com mapas geográficos e dados ambientais para precisão e monitoramento.</p></div>
+        <div class="card"><h3>Câmeras Inteligentes</h3><p>Monitoramento visual constante em áreas críticas com alerta automatizado.</p></div>
+        <div class="card"><h3>Fórum Colaborativo</h3><p>Espaço para conscientização e troca de informações entre comunidade e órgãos públicos.</p></div>
+        <div class="card"><h3>Painel de Autoridades</h3><p>Gestão centralizada para bombeiros e órgãos ambientais, com dados em tempo real.</p></div>
+      </div>
+    </section>
+
+    <section id="impacto" class="secao destaque">
+      <h2>Impacto e Benefícios</h2>
+      <div class="grid-impacto">
+        <div class="impacto-item">Proteção da biodiversidade</div>
+        <div class="impacto-item">Melhoria da qualidade do ar</div>
+        <div class="impacto-item">Segurança das comunidades</div>
+        <div class="impacto-item">Redução de perdas econômicas</div>
+        <div class="impacto-item">Conscientização ambiental</div>
+      </div>
+    </section>
+
+    <section id="equipe" class="secao">
+      <h2>Equipe Fire Help</h2>
+      <div class="grid-equipe">
+        <div class="membro">Ana Beatriz A. da Silva</div>
+        <div class="membro">Beatriz B. M. Lima da Silva</div>
+        <div class="membro">Davy Q. da Silva</div>
+        <div class="membro">Hudson N. P. Vieira</div>
+        <div class="membro">Luis A. A. Senna</div>
+        <div class="membro">Matheus L. Rocha</div>
+        <div class="membro">Rafael dos Santos Paulo</div>
+        <div class="membro">Rodrigo G. da Conceição</div>
+      </div>
+      <p class="orientador">Professor Orientador: Sérgio Santos</p>
+    </section>
+
+    <section id="contato" class="secao destaque">
+      <h2>Fale Conosco</h2>
+      <p>Entre em contato com nossa equipe para saber mais sobre o projeto Fire Help.</p>
+      <form class="form-contato" id="formContato">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <textarea id="mensagem" placeholder="Sua mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="grupo-whatsapp">
+        <a href="https://chat.whatsapp.com/H63BBq1nhrj9ljx0kHBhZg?mode=wwt" target="_blank" class="whatsapp-link">
+          <i class="fa-brands fa-whatsapp"></i> Entrar no grupo da comunidade!
+        </a>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <p>© 2025 Fire Help | Universidade de Vassouras – Campus Saquarema</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
