@@ -37,8 +37,7 @@ Mesmo em fase inicial, o projeto já representa um passo importante para aplicar
 
 ## Como Acessar o Projeto
 
-O site está disponível online pelo GitHub Pages:
----
+O site está disponível online pelo GitHub Pages: https://anabeatrizabrantes.github.io/Site-Fire-help/
 
 Se quiser testar localmente:
 
